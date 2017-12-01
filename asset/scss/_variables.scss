@@ -1,0 +1,54 @@
+
+// Colour
+$red:             #ffa0a7 !default;
+$orange:          #ffcda7 !default;
+$yellow:          #ffffa7 !default;
+$green:           #a7ffb6 !default;
+$blue:            #a7d0ff !default;
+$white:           #fff !default;
+
+// Monochrome
+$grey-10:         #e6e7e8 !default;
+$grey-20:         #cccccc !default;
+$grey-30:         #bcbec0 !default;
+$grey-40:         #a7a9ac !default;
+$grey-50:         #939598 !default;
+$grey-60:         #808285 !default;
+$grey-70:         #6d6e71 !default;
+$grey-80:         #58595b !default;
+$grey-90:         #414042 !default;
+$black:           #000 !default;
+
+// Primary and Secondary colours
+$primary:         #66bdcd !default;
+$secondary:       #cd7666 !default;
+
+// Font
+$font-family: "Open Sans", Arial, Helvetica, sans-serif !default;
+
+// Use either a local or CDN path for Font Awesome
+//$fa-font-path:  "../fonts" !default;
+$fa-font-path:    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts" !default;
+
+// Custom Settings
+$body-color: $grey-80 !default;
+$standard-margin: 0.625rem !default;
+
+// Screen Resolutions
+$screen-xs-max: 575px !default;
+$screen-sm-min: 576px !default;
+$screen-sm-max: 767px !default;
+$screen-md-min: 768px !default;
+$screen-md-max: 991px !default;
+$screen-lg-min: 992px !default;
+$screen-lg-max: 1199px !default;
+$screen-xl-min: 1200px !default;
+
+// z-index
+$zindex-dropdown:          1000 !default;
+$zindex-sticky:            1020 !default;
+$zindex-fixed:             1030 !default;
+$zindex-modal-backdrop:    1040 !default;
+$zindex-modal:             1050 !default;
+$zindex-popover:           1060 !default;
+$zindex-tooltip:           1070 !default;
